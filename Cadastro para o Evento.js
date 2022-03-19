@@ -1,11 +1,11 @@
 //Cadastro para o Evento
 
+var dtAtual = '15/03/2022'
 var dtEvento ='20/03/2022' //data do envento
 var idadePermitida = '18' //limite mínimo de idade permitida para o evento
 var idade = '19'          //idade do convidado
 var nConvidados = ['Marcio','Juliane','Lívia','Daniela','Douglas','Paulo']    //lista de convidados para o evento
 
-var dtAtual = '15/03/2022'
 if (dtEvento >= dtAtual){
     console.log(dtAtual ,'é uma data válida! O evento Poderá acontecer')
 }else{
